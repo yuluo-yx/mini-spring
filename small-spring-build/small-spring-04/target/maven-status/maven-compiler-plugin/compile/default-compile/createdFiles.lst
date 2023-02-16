@@ -1,0 +1,16 @@
+indi\yuluo\springframework\beans\factory\support\BeanDefinitionRegistry.class
+indi\yuluo\springframework\beans\factory\config\BeanDefinition.class
+indi\yuluo\springframework\beans\factory\support\InstantiationStrategy.class
+indi\yuluo\springframework\beans\factory\support\CglibSubClassingInstantiationStrategy$1.class
+indi\yuluo\springframework\beans\factory\config\BeanReference.class
+indi\yuluo\springframework\beans\factory\support\DefaultListableBeanFactory.class
+indi\yuluo\springframework\beans\factory\support\AbstractBeanFactory.class
+indi\yuluo\springframework\beans\factory\support\DefaultSingletonBeanRegistry.class
+indi\yuluo\springframework\beans\factory\config\SingletonBeanRegistry.class
+indi\yuluo\springframework\beans\factory\support\AbstractAutowireCapableBeanFactory.class
+indi\yuluo\springframework\beans\factory\support\CglibSubClassingInstantiationStrategy.class
+indi\yuluo\springframework\beans\BeansException.class
+indi\yuluo\springframework\beans\factory\PropertyValue.class
+indi\yuluo\springframework\beans\factory\PropertyValues.class
+indi\yuluo\springframework\beans\factory\support\SimpleInstantiationStrategy.class
+indi\yuluo\springframework\beans\factory\BeanFactory.class
