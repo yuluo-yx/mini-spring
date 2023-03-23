@@ -13,23 +13,21 @@ import org.junit.Test;
 public class ApiTest {
 
 	@Test
-	public void testBeanFactory() {
-		// 初始化BeanFactory
+	public void test_BeanFactory(){
+		// 1.初始化 BeanFactory
 		DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
 
-		// 注册bean
+		// 2.注册 bean
 		BeanDefinition beanDefinition = new BeanDefinition(UserService.class);
 		beanFactory.registerBeanDefinition("userService", beanDefinition);
 
-		// 第一次获取bean
+		// 3.第一次获取 bean
 		UserService userService = (UserService) beanFactory.getBean("userService");
-		System.out.println(userService.toString());
-		userService.queryUsserInfo();
+		userService.queryUserInfo();
 
-		// 第二次获取bean from Singleton
-		UserService serviceSingleton = (UserService) beanFactory.getBean("userService");
-		System.out.println(serviceSingleton.toString());
-		serviceSingleton.queryUsserInfo();
+		// 4.第二次获取 bean from Singleton
+		UserService userService_singleton = (UserService) beanFactory.getSingleton("userService");
+		userService_singleton.queryUserInfo();
 	}
 
 }

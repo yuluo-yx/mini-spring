@@ -12,6 +12,7 @@ import indi.yuluo.springframework.beans.factory.config.BeanDefinition;
 
 public interface BeanDefinitionRegistry {
 
+	// 向注册表中中注册 Bean
 	void registerBeanDefinition(String beanName, BeanDefinition definition);
 
 }
